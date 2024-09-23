@@ -1,0 +1,129 @@
+version: "3.1"
+
+rules:
+
+- rule: greet
+  steps: 
+  - intent: greet 
+  - action: utter_greet
+
+- rule: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: ask_name
+  steps: 
+  - intent: ask_name
+  - action: utter_name
+
+- rule: ask_who_create
+  steps: 
+    - intent: ask_who_create
+    - action: utter_who_create
+
+- rule: ask_ability
+  steps: 
+    - intent: ability
+    - action: utter_ability
+
+- rule: ask_joke
+  steps: 
+    - intent: ask_joke
+    - action: utter_ask_joker
+
+- rule: ask_todo
+  steps: 
+    - intent: ask_todo
+    - action: utter_ask_todo
+
+- rule: ask_define_mental_health
+  steps: 
+    - intent: ask_define_mental_health
+    - action: utter_ask_define_mental_health
+
+- rule: ask_fact
+  steps:
+    - intent: ask_fact
+    - action: utter_ask_fact
+
+- rule: ask_why_important
+  steps: 
+    - intent: ask_why_important
+    - action: utter_ask_why_important
+
+- rule: ask_define_depression
+  steps: 
+    - intent: ask_define_depression
+    - action: utter_ask_define_depression
+
+- rule: ask_identify_sign_depression
+  steps: 
+    - intent: ask_identify_sign_depression
+    - action: utter_ask_identify_sign_depression
+
+- rule: ask_define_therapist
+  steps: 
+    - intent: ask_define_therapist
+    - action: utter_ask_define_therapist
+
+- rule: ask_define_therapy
+  steps: 
+    - intent: ask_define_therapy
+    - action: utter_ask_define_therapy
+
+- rule: ask_define_mental_illness
+  steps: 
+    - intent: ask_define_mental_illness
+    - action: utter_ask_define_mental_illness
+
+- rule: ask_who_mental_illness_affect
+  steps:
+    - intent: ask_who_mental_illness_affect
+    - action: utter_ask_who_mental_illness_affect
+
+- rule: ask_cause_mental_illness
+  steps:
+    - intent: ask_cause_mental_illness
+    - action: utter_ask_cause_mental_illness
+
+- rule: ask_warning_sign_mental_illness
+  steps:
+    - intent: ask_warning_sign_mental_illness
+    - action: utter_ask_warning_sign_mental_illness
+
+- rule: ask_recover_metal_illness
+  steps:
+    - intent: ask_recover_metal_illness
+    - action: utter_ask_recover_metal_illness
+
+- rule: ask_diff_sadness_depression
+  steps:
+    - intent: ask_diff_sadness_depression
+    - action: utter_ask_diff_sadness_depression
+
+- rule: ask_diff_anxiety_stress
+  steps:
+    - intent: ask_diff_anxiety_stress
+    - action: utter_ask_diff_anxiety_stress
+
+- rule: ask_treatment_available
+  steps:
+    - intent: ask_treatment_available
+    - action: utter_ask_treatment_available
+
+- rule: ask_prevent_metal_health
+  steps:
+    - intent: ask_prevent_metal_health
+    - action: utter_ask_prevent_metal_health
+
+
+- rule: fallback
+  steps:
+    - intent: nlu_fallback
+    - action: utter_out_of_scope
+
+- rule: fallback_v
+  steps: 
+  - intent: out_of_scope
+  - action: utter_out_of_scope

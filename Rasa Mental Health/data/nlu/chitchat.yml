@@ -1,0 +1,176 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - xin chào
+    - tôi cần hỗ trợ 
+    - ê 
+    - hi 
+    - hello 
+    - chatbot ơi 
+    - có đó không 
+    - rảnh không
+    - bot ơi
+    - mình muốn tư vấn
+    - tư vấn cho mình
+    - tôi muốn hỏi về bất động sản
+    - bạn ơi
+    - anh ơi
+    - có ai ở đây không
+    - đang cần hỗ trợ 
+    - alo 
+    - bạn gì ơi
+    - có ai không ạ 
+    - đâu rồi 
+    - trợ lý của tôi đâu rồi 
+    - trợ lý của mình đâu rồi ạ 
+    - trợ lý ra đây nào 
+    - bạn dậy đê
+    - dậy đê bạn ơiii
+    - cậu vẫn ngủ à thức dạy đi
+    - vẫn còn ngủ đấy à dạy nói chuyện với t đi
+    - vẫn còn đang ngủ đấy à dạy nói chuyện với t đi
+    - thức dậy đê cậu ới
+    - dậy đi bạn ơi
+    - vẫn ngủ đấy à, thức dậy đê
+    - vẫn còn đang ngủ đấy à, thức dậy đi
+    - bạn vẫn còn ngủ đấy à dạy đê
+    - cậu vẫn còn đang ngủ à thức dạy đê
+    - dạy đi bạn ơi
+    - vẫn ngủ đấy à dạy nói chuyện với t đi
+    - vẫn ngủ đấy à thức dạy nói chuyện với tớ đi
+    - cậu vẫn ngủ đấy à thức dậy đê
+
+- intent: goodbye
+  examples: |
+    - Tạm biệt
+    - Cảm ơn và hẹn gặp lại
+    - Tạm biệt nhé
+    - Chào tạm biệt
+    - Hẹn gặp lại bạn sau
+    - Tạm biệt và chúc bạn một ngày tốt lành
+    - Cảm ơn bạn và hẹn gặp lại
+    - Tạm biệt, chúc một ngày tốt lành
+    - Chào tạm biệt và hẹn gặp lại sau
+    - Hẹn gặp lại bạn vào lần sau
+    - Cảm ơn và chào tạm biệt
+    - Tạm biệt, hy vọng sẽ gặp lại bạn sớm
+    - Chúc bạn một ngày tốt lành và hẹn gặp lại sau nhé
+    - Tạm biệt và cảm ơn bạn đã đến với chúng tôi
+    - Hẹn gặp lại bạn vào dịp khác
+    - Tạm biệt và mong gặp lại bạn sau
+    - Cảm ơn bạn đã ghé thăm, hẹn gặp lại sau nhé
+    - Tạm biệt và chúc một ngày tốt lành
+    - Hẹn gặp lại bạn vào lần sau nhé
+    - Tạm biệt và hy vọng sẽ gặp lại bạn sớm
+    - Chào tạm biệt và cảm ơn bạn đã ghé thăm
+    - Tạm biệt, hẹn gặp lại bạn vào dịp khác
+    - Hẹn gặp lại bạn trong thời gian tới
+    - Tạm biệt và chúc bạn một ngày vui vẻ
+    - Cảm ơn bạn và hẹn gặp lại sau nhé
+    - Tạm biệt, hẹn sớm gặp lại bạn
+    - Chào tạm biệt và cảm ơn bạn đã ghé thăm trang web của chúng tôi
+    - Tạm biệt, hy vọng sẽ gặp lại bạn vào lần sau
+    - Hẹn gặp lại bạn vào dịp khác nhé
+    - Tạm biệt và chúc bạn may mắn
+    - Cảm ơn bạn đã đến, hẹn gặp lại bạn vào dịp khác
+    - Tạm biệt và hy vọng sẽ gặp lại bạn sau
+    - Chào tạm biệt, hẹn gặp lại bạn vào lần sau
+    - Tạm biệt, chúc bạn một ngày tốt lành và hẹn gặp lại
+    - Hẹn gặp lại bạn vào dịp khác nhé
+    - Tạm biệt và chúc một ngày tốt lành
+
+- intent: thanks
+  examples: |
+    - Cảm ơn nhiều!
+    - Xin cảm ơn!
+    - Cảm ơn bạn rất nhiều!
+    - Rất cảm ơn!
+    - Cảm ơn nhiều nhé!
+    - Cảm ơn bạn đã giúp đỡ!
+    - Cảm ơn bạn đã hỗ trợ!
+    - Cảm ơn bạn đã nhiệt tình giúp đỡ!
+    - Xin cảm ơn sự giúp đỡ của bạn!
+    - Rất cảm ơn sự hỗ trợ của bạn!
+    - Cảm ơn bạn đã dành thời gian cho tôi!
+    - Cảm ơn bạn đã trợ giúp!
+    - Cảm ơn bạn đã hỗ trợ tôi!
+    - Tôi rất cảm kích!
+    - Cảm ơn bạn đã sẵn sàng giúp đỡ!
+    - Cảm ơn bạn đã chia sẻ kiến thức của mình!
+    - Cảm ơn bạn đã chia sẻ thông tin hữu ích!
+    - Cảm ơn bạn đã làm việc cùng tôi!
+    - Cảm ơn bạn đã chú ý đến vấn đề của tôi!
+    - Cảm ơn bạn đã giải đáp thắc mắc của tôi!
+    - Tôi rất biết ơn!
+    - Cảm ơn bạn đã quan tâm đến vấn đề của tôi!
+    - Cảm ơn bạn đã cung cấp thông tin hữu ích!
+    - Cảm ơn bạn đã giúp tôi giải quyết vấn đề!
+    - Cảm ơn bạn đã hỗ trợ tôi trong việc này!
+
+- intent: deny
+  examples: |
+    - Không
+    - Không cần đâu
+    - Tôi không muốn
+    - Không, cảm ơn
+    - Không phải vậy
+    - Hủy bỏ
+    - Tôi không đồng ý
+    - Không phải
+    - Đừng làm vậy
+    - Tôi từ chối
+
+- intent: ask_name
+  examples: |
+    - Bạn là ai?
+    - Xin hỏi bạn tên là gì?
+    - Bạn có thể giới thiệu bản thân cho tôi được không?
+    - Tôi không biết bạn là ai. Bạn có thể nói cho tôi biết được không?
+    - Tôi muốn biết ai đã gửi thông tin này cho tôi. Bạn có thể cho tôi biết được không?
+    - Bạn có thể nói cho tôi tên của mình được không?
+    - Tôi muốn biết ai đang nói chuyện với tôi. Bạn có thể cho tôi biết được không?
+    - Tôi không hiểu ai đang nói với tôi. Bạn có thể cho tôi biết được không?
+    - Bạn là ai đây? Tôi không hiểu rõ lắm.
+    - Tôi muốn biết tên của người đang nói chuyện với tôi. Bạn có thể cho tôi biết được không?
+    - Tôi muốn biết bạn là ai. Bạn có thể giải đáp cho tôi được không?
+    - Tôi không hiểu ai đang nói với tôi. Bạn có thể cho tôi biết tên của mình được không?
+    - Tôi muốn biết ai đang nói chuyện với tôi. Bạn có thể giới thiệu bản thân được không?
+    - Tôi cần biết ai đang nói với tôi để giúp đỡ. Bạn có thể cho tôi biết được không?
+    - Bạn có thể cho tôi biết tên của mình được không? Tôi cần biết ai đang nói chuyện với tôi.
+    - Tôi không biết bạn là ai. Bạn có thể giới thiệu cho tôi được không?
+
+- intent: ask_who_create
+  examples: |
+    - ai tạo ra bạn 
+    - bạn được ai tạo ra vậy 
+    - ai đẻ ra bạn 
+    - bố mày là ai?
+    - bố bạn là ai 
+    - ai sinh ra bạn 
+    - bố mẹ của bạn là ai ?
+    - cha bạn là ai vậy ạ? 
+
+- intent: ability
+  examples: |
+    - bạn làm được gì?
+    - bot làm được những việc gì 
+    - mày làm những việc gì
+    - bot có thể làm gì vậy? 
+
+- intent: ask_joke
+  examples: |
+    - Bạn kể tôi câu chuyện hài đi
+    - hãy kể chuyện cười bạn biết
+    - một câu chuyện thú vị bạn biết, bạn có thể chia sẻ tôi biết được không
+
+- intent: ask_todo
+  examples: |
+    - bạn giúp tôi nhé
+    - giúp tôi phát
+    - help me
+    - làm ơn giúp tôi nhé
+    - giúp mình nha
+    - mình hỏi một số thứ này nhé

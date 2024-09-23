@@ -1,0 +1,175 @@
+version: "3.1"
+
+intents:
+# chitchat
+  - greet
+  - goodbye
+  - deny
+  - ask_name
+  - ask_who_create
+  - ability
+  - ask_joke
+  - ask_todo
+  - thanks
+# ask knowledge 
+  - ask_define_mental_health
+  - ask_fact
+  - ask_why_important
+  - ask_define_depression
+  - ask_identify_sign_depression
+  - ask_define_therapist
+  - ask_define_therapy
+  - ask_define_mental_illness
+  - ask_who_mental_illness_affect
+  - ask_cause_mental_illness
+  - ask_warning_sign_mental_illness
+  - ask_recover_metal_illness
+  - ask_diff_sadness_depression
+  - ask_diff_anxiety_stress
+  - ask_treatment_available
+  - ask_prevent_metal_health
+
+
+responses:
+# chitchat
+  utter_greet:
+  - text: "Xin chào, bạn có điều gì hãy hỏi mình nha"
+  - text: 'Xin chào. Hãy để tôi giúp bạn. Nếu bạn có câu hỏi, đừng ngại, mình luôn ở đây để giúp đỡ bạn'
+
+  utter_goodbye:
+  - text: 'Tạm biệt bạn. Hẹn lần sau'
+  - text: 'Tạm biệt bạn'
+  - text: 'Sớm gặp lại bạn'
+
+  utter_name: 
+  - text: 'Tôi là trợ lý ảo tư vấn sức khỏe tinh thần'
+  - text: 'Mình là người trợ lý ảo có thể giải đáp thắc mắc về vấn đề sức khỏe tinh thần cho bạn'
+
+  utter_who_create: 
+  - text: 'Tôi không biết'
+
+  utter_ability: 
+  - text: 'Tôi có thể giải đáp thắc mắc của bạn về vấn đề sức khỏe tinh thần'
+
+  utter_ask_joker: 
+  - text: 'Xin lỗi, tôi không thể đáp ứng được yêu cầu của bạn vì tôi không có năng khiếu kể chuyện'
+
+  utter_ask_todo: 
+  - text: 'Bạn hãy đặt câu hỏi còn việc trả lời để mình lo!!!'
+  - text: 'Mình luôn sẵn lòng dể nghe câu hỏi từ bạn nha.'
+
+  utter_thanks: 
+    - text: Không có chi, tôi luôn sẵn sàng để giúp đỡ.
+    - text: Tôi rất vui khi có thể giúp ích cho bạn.
+    - text: Không có chi, tôi vui mừng khi đã giúp được bạn.
+    - text: Tôi rất cảm kích sự đánh giá cao của bạn.
+    - text: Không có gì quý giá hơn được giúp đỡ khách hàng.
+    - text: Tôi rất vui khi biết rằng tôi có thể giúp ích cho bạn.
+    - text: Tôi rất cảm kích khi nhận được lời cảm ơn của bạn.
+    - text: Không có chi, tôi vui mừng khi được giúp đỡ.
+    - text: Tôi mong rằng tôi đã giải quyết được vấn đề của bạn.
+    - text: Tôi cảm thấy hạnh phúc khi biết rằng tôi đã giúp được bạn.
+
+# ask knowledge
+  utter_ask_define_mental_health:
+  - text: 'Sức khỏe tinh thần là trạng thái hạnh phúc trong đó cá nhân nhận thức được khả năng của bản thân, có thể đối phó với những căng thẳng thông thường của cuộc sống, làm việc hiệu quả và có ý nghĩa, cũng như có thể đóng góp cho cộng đồng của mình", "Sức khỏe tinh thần bao gồm sức khỏe cảm xúc, tâm lý và xã hội của chúng ta. Nó ảnh hưởng đến cách chúng ta suy nghĩ, cảm nhận và hành động. Nó cũng giúp xác định cách chúng ta đối phó với căng thẳng, liên hệ với người khác và đưa ra quyết định.'
+
+  utter_ask_fact: 
+  - text: "Theo một báo cáo của UNICEF, cứ bảy người Ấn Độ từ 15-24 tuổi thì có một người cảm thấy bị trầm cảm"
+  - text: "Cứ 5 người trẻ (tuổi từ 13-18) thì có 1 người mắc hoặc sẽ phát triển bệnh tâm thần trong suốt cuộc đời."
+  - text: "Trầm cảm là nguyên nhân hàng đầu gây ra tình trạng mất khả năng lao động trên toàn thế giới."
+
+  utter_ask_why_important: 
+  - text: "Duy trì sức khỏe tinh thần là rất quan trọng để ổn định các hành vi, cảm xúc và suy nghĩ mang tính xây dựng. Tập trung vào việc chăm sóc sức khỏe tinh thần có thể tăng cường năng suất, cải thiện hình ảnh bản thân và nâng cao các mối quan hệ."
+
+  utter_ask_define_depression:
+  - text: 'Một rối loạn sức khỏe tâm thần được đặc trưng bởi tình trạng tâm trạng chán nản kéo dài hoặc mất hứng thú với các hoạt động, gây ra suy giảm đáng kể trong cuộc sống hàng ngày.'
+
+  utter_ask_identify_sign_depression:
+  - text: "Để chẩn đoán trầm cảm, một người cần phải trải qua tình trạng tâm trạng chán nản hoặc mất hứng thú, niềm vui trong cuộc sống ít nhất là 2 tuần. Ngoài ra, họ sẽ có các triệu chứng sau: cảm giác buồn bã, tuyệt vọng, hoặc dễ cáu kỉnh hầu như mỗi ngày."
+
+  utter_ask_define_therapist:
+  - text: "Một nhà trị liệu là một danh xưng chung dùng để chỉ các chuyên gia được đào tạo để cung cấp điều trị và phục hồi chức năng. Thuật ngữ này thường được áp dụng cho các nhà tâm lý học, nhưng cũng có thể bao gồm những người cung cấp nhiều dịch vụ khác, như nhân viên xã hội, tư vấn viên, huấn luyện viên cuộc sống và nhiều người khác."
+
+  utter_ask_define_therapy:
+  - text: "Liệu pháp là một hình thức điều trị nhằm giúp giải quyết các vấn đề tâm lý hoặc cảm xúc. Nó hữu ích cho những người có vấn đề về sức khỏe tâm thần hoặc thậm chí là những thử thách trong cuộc sống hàng ngày."
+
+  utter_ask_define_mental_illness:
+  - text: "Bệnh tâm thần là các tình trạng sức khỏe làm rối loạn suy nghĩ, cảm xúc, mối quan hệ và chức năng hàng ngày của một người. Chúng liên quan đến sự đau khổ và giảm khả năng tham gia vào các hoạt động bình thường trong cuộc sống hàng ngày. Bệnh tâm thần có mức độ nghiêm trọng khác nhau: một số bệnh khá nhẹ và chỉ ảnh hưởng đến một số khía cạnh của cuộc sống, chẳng hạn như những nỗi sợ hãi cụ thể. Ở đầu kia của phổ là các bệnh tâm thần nghiêm trọng, dẫn đến sự suy giảm chức năng lớn và can thiệp vào cuộc sống hàng ngày. Những bệnh này bao gồm các rối loạn như trầm cảm nặng, tâm thần phân liệt và rối loạn lưỡng cực, và có thể yêu cầu người bệnh nhận được sự chăm sóc trong bệnh viện. Quan trọng là phải biết rằng bệnh tâm thần là các tình trạng y tế không liên quan đến tính cách, trí thông minh hay ý chí của một người. Cũng giống như tiểu đường là một rối loạn của tuyến tụy, bệnh tâm thần là một tình trạng y tế do sinh lý của não bộ. Tương tự như cách điều trị tiểu đường bằng thuốc và insulin, bệnh tâm thần có thể điều trị bằng sự kết hợp của thuốc và hỗ trợ xã hội. Những phương pháp điều trị này rất hiệu quả, với 70-90% người nhận điều trị cảm thấy giảm triệu chứng và cải thiện chất lượng cuộc sống. Với sự điều trị thích hợp, rất có thể một người mắc bệnh tâm thần có thể sống độc lập và thành công."
+
+  utter_ask_who_mental_illness_affect:
+  - text: "Theo ước tính, rối loạn tâm thần ảnh hưởng đến 1 trong 5 người trưởng thành ở Mỹ, và 1 trong 24 người trưởng thành mắc bệnh tâm thần nghiêm trọng. Rối loạn tâm thần không phân biệt; nó có thể ảnh hưởng đến bất kỳ ai, không phân biệt giới tính, tuổi tác, thu nhập, tình trạng xã hội, chủng tộc, tôn giáo, xu hướng tình dục, hay nền tảng. Mặc dù rối loạn tâm thần có thể ảnh hưởng đến bất kỳ ai, nhưng một số tình trạng có thể phổ biến hơn ở các nhóm dân cư khác nhau. Ví dụ, các rối loạn ăn uống thường gặp hơn ở nữ giới, trong khi các rối loạn như rối loạn thiếu chú ý/hyperactivity thường phổ biến hơn ở trẻ em. Thêm vào đó, tất cả các độ tuổi đều có nguy cơ, nhưng thanh thiếu niên và người già đặc biệt dễ bị tổn thương. Các rối loạn tâm thần thường xảy ra ở những người đang ở độ tuổi vàng của cuộc đời, với 75% các vấn đề về sức khỏe tâm thần phát triển trước tuổi 24. Điều này làm cho việc nhận diện và điều trị các rối loạn tâm thần đặc biệt khó khăn, vì những thay đổi trong tính cách và hành vi của tuổi dậy thì có thể che giấu các triệu chứng của một tình trạng sức khỏe tâm thần. Các bậc phụ huynh và người chăm sóc nên nhận thức điều này và chú ý đến những thay đổi trong tâm trạng, tính cách, thói quen cá nhân, và sự rút lui xã hội của trẻ. Khi những thay đổi này xảy ra ở trẻ em dưới 18 tuổi, chúng được gọi là rối loạn cảm xúc nghiêm trọng (SEDs)."
+
+  utter_ask_cause_mental_illness:
+  - text: "Các bệnh tâm thần thường là kết quả của sự tương tác giữa nhiều yếu tố khác nhau. Đôi khi, không có một nguyên nhân đơn lẻ nào, mà là sự kết hợp của nhiều yếu tố góp phần vào sự phát triển của bệnh."
+  - text: 'Bệnh tâm thần có thể do nhiều nguyên nhân kết hợp, bao gồm:\n\n1. Yếu tố Sinh học:\n   - Di truyền: Có thể di truyền từ gia đình.\n   - Hóa học não bộ: Sự mất cân bằng chất hóa học trong não.\n   - Cấu trúc não bộ: Bất thường trong cấu trúc hoặc chức năng não.\n\n2. Yếu tố Tâm lý:\n   - Trauma và căng thẳng: Sự kiện đau thương hoặc căng thẳng lớn.\n   - Rối loạn cảm xúc: Các rối loạn cảm xúc không được xử lý.\n\n3. Yếu tố Môi trường:\n   - Yếu tố xã hội và kinh tế: Môi trường nghèo nàn hoặc áp lực xã hội.\n   - Thiếu hỗ trợ xã hội: Thiếu sự hỗ trợ từ gia đình và bạn bè.\n\n4. Yếu tố Sinh lý:\n   - Rối loạn nội tiết tố: Thay đổi nội tiết tố trong các giai đoạn như dậy thì hoặc mãn kinh.\n\n5. Yếu tố Sinh học-Khách quan:\n   - Nhiễm trùng hoặc bệnh lý: Một số bệnh hoặc nhiễm trùng có thể ảnh hưởng đến não.\n\nBệnh tâm thần thường là sự kết hợp của nhiều yếu tố và có thể được điều trị qua liệu pháp tâm lý, thuốc men và hỗ trợ xã hội.'
+
+  utter_ask_warning_sign_mental_illness:
+  - text: "Các triệu chứng của rối loạn tâm thần có thể khác nhau tùy thuộc vào loại và mức độ nghiêm trọng của tình trạng. Dưới đây là danh sách các triệu chứng chung có thể gợi ý về một rối loạn tâm thần, đặc biệt khi nhiều triệu chứng xuất hiện cùng lúc. \nỞ người lớn:\n Suy nghĩ rối loạn\n Buồn bã hoặc cáu kỉnh kéo dài\n Tâm trạng cực kỳ cao và thấp\n Lo lắng, sợ hãi hoặc lo âu quá mức\n Rút lui khỏi xã hội\n Thay đổi đáng kể trong thói quen ăn uống hoặc ngủ nghỉ\n Cảm giác tức giận mãnh liệt\n Ảo tưởng hoặc ảo giác (thấy hoặc nghe những thứ không thực sự tồn tại)\n Ngày càng không thể đối phó với các vấn đề và hoạt động hàng ngày\n Suy nghĩ về tự sát\n Phủ nhận các vấn đề rõ ràng\n Nhiều vấn đề sức khỏe không giải thích được\n Lạm dụng ma túy và/hoặc rượu\n\nỞ trẻ em lớn hơn và thiếu niên:\n Lạm dụng ma túy và/hoặc rượu\n Không thể đối phó với các vấn đề và hoạt động hàng ngày\n Thay đổi trong thói quen ngủ và/hoặc ăn uống\n Than phiền quá mức về các vấn đề thể chất\n Phản kháng quyền lực, bỏ học, trộm cắp, hoặc phá hoại tài sản\n Sợ tăng cân mãnh liệt\n Tâm trạng tiêu cực kéo dài, thường kèm theo chán ăn và suy nghĩ về cái chết\n Cơn giận dữ thường xuyên\n\nỞ trẻ nhỏ:\n Thay đổi trong kết quả học tập\n Điểm số kém mặc dù đã cố gắng nhiều\n Lo lắng hoặc lo âu quá mức\n Hiếu động thái quá\n Ác mộng kéo dài\n Sự bất tuân và/hoặc hành vi hung hăng liên tục\n Cơn giận dữ thường xuyên"
+
+  utter_ask_recover_metal_illness:
+  -  text: "Khi chữa trị bệnh tâm thần, việc nhận diện sớm và điều trị kịp thời là rất quan trọng. Tùy thuộc vào bản chất của bệnh, có nhiều phương pháp điều trị hiệu quả có sẵn. Đối với bất kỳ loại điều trị nào, điều quan trọng là người bị ảnh hưởng phải chủ động và hoàn toàn tham gia vào quá trình hồi phục của chính mình. Nhiều người mắc bệnh tâm thần khi được chẩn đoán và điều trị đều phản ứng tốt, mặc dù một số người có thể gặp phải tình trạng triệu chứng tái phát. Ngay cả trong những trường hợp như vậy, với sự giám sát và quản lý cẩn thận của bệnh, việc sống một cuộc sống đầy đủ và hiệu quả vẫn là hoàn toàn có thể."
+
+  utter_ask_diff_sadness_depression:
+  - text: "Nỗi buồn là phản ứng bình thường đối với sự mất mát, thất vọng, vấn đề hoặc các tình huống khó khăn khác. Cảm thấy buồn thỉnh thoảng chỉ là một phần của việc làm người. Trong những trường hợp này, cảm giác buồn thường nhanh chóng biến mất và bạn có thể tiếp tục cuộc sống hàng ngày của mình. Các cách khác để nói về nỗi buồn có thể là cảm thấy chán nản, cảm thấy buồn bã, hoặc cảm thấy u sầu. Một người có thể nói rằng họ cảm thấy trầm cảm, nhưng nếu nó biến mất tự nhiên và không ảnh hưởng lớn đến cuộc sống, thì có thể đó không phải là căn bệnh trầm cảm. Trầm cảm là một bệnh tâm thần ảnh hưởng đến tâm trạng của bạn, cách bạn hiểu về bản thân và cách bạn hiểu và tương tác với những thứ xung quanh bạn. Nó cũng có thể được gọi bằng các tên khác, như trầm cảm lâm sàng, rối loạn trầm cảm chính hoặc trầm cảm chính. Trầm cảm có thể xuất hiện không lý do và kéo dài trong một thời gian dài. Nó nhiều hơn nỗi buồn hoặc tâm trạng thấp. Những người trải qua trầm cảm có thể cảm thấy vô dụng hoặc tuyệt vọng. Họ có thể cảm thấy tội lỗi vô lý. Một số người có thể trải qua trầm cảm dưới dạng sự tức giận hoặc cáu kỉnh. Có thể rất khó để tập trung hoặc đưa ra quyết định. Hầu hết mọi người mất hứng thú với những điều mà họ từng yêu thích và có thể tách biệt khỏi người khác. Cũng có những dấu hiệu thể chất của trầm cảm, như vấn đề về giấc ngủ, sự thèm ăn và năng lượng, cũng như những cơn đau không thể giải thích được. Một số người có thể có những suy nghĩ khó khăn về cái chết hoặc kết thúc cuộc sống của họ (tự tử). Trầm cảm kéo dài hơn hai tuần, thường không tự biến mất và ảnh hưởng đến cuộc sống của bạn. Đây là một căn bệnh thật sự và nó hoàn toàn có thể điều trị được. Quan trọng là bạn nên tìm sự giúp đỡ nếu bạn lo lắng về trầm cảm."
+
+  utter_ask_diff_anxiety_stress: 
+  - text: "Căng thẳng và lo âu thường được sử dụng thay thế cho nhau, và có sự chồng chéo giữa chúng. Căng thẳng liên quan đến phản ứng 'chiến đấu, chạy trốn hoặc đông cứng' giống như lo âu, và các cảm giác vật lý của lo âu và căng thẳng có thể rất giống nhau. Tuy nhiên, nguyên nhân của căng thẳng và lo âu thường khác nhau. Căng thẳng chủ yếu tập trung vào các áp lực bên ngoài mà chúng ta khó đối phó. Khi bị căng thẳng, chúng ta thường biết rõ nguyên nhân và các triệu chứng của căng thẳng thường biến mất sau khi tình huống căng thẳng kết thúc. Lo âu, ngược lại, không phải lúc nào cũng dễ nhận biết. Lo âu thường tập trung vào những lo lắng hoặc sợ hãi về những điều có thể đe dọa chúng ta, cũng như lo lắng về chính lo âu. Cả căng thẳng và lo âu đều là một phần của cuộc sống con người, nhưng cả hai có thể trở thành vấn đề nếu kéo dài hoặc ảnh hưởng đến sức khỏe hay cuộc sống hàng ngày của chúng ta."
+
+  utter_ask_treatment_available:
+  - text: 'Cũng giống như có nhiều loại thuốc khác nhau để điều trị bệnh lý thể chất, có nhiều lựa chọn điều trị khác nhau cho những người mắc bệnh tâm lý. Điều trị hiệu quả khác nhau đối với mỗi người. Điều quan trọng là tìm ra phương pháp phù hợp nhất cho bạn hoặc con của bạn.'
+
+  utter_ask_prevent_metal_health: 
+  - text: 'Tất cả chúng ta đều có thể gặp phải những thách thức về sức khỏe tâm thần, nhưng việc phát triển sức khỏe tinh thần, tăng cường khả năng phục hồi và tìm kiếm sự giúp đỡ sớm có thể giúp ngăn ngừa những thách thức trở nên nghiêm trọng.'
+
+# Out of scope 
+  utter_out_of_scope: 
+    - text: Xin lỗi, tôi không thể giúp được bạn với vấn đề đó.
+    - text: Rất tiếc, tôi không hiểu rõ yêu cầu của bạn.
+    - text: Bot của chúng tôi chỉ có thể trả lời các câu hỏi về bất động sản.
+    - text: Tôi không có thông tin để trả lời câu hỏi đó.
+    - text: Bot của chúng tôi không được lập trình để trả lời câu hỏi như vậy.
+    - text: Rất tiếc, tôi không thể giúp bạn với vấn đề đó vì nó không nằm trong lĩnh vực của tôi.
+    - text: Tôi không hiểu rõ ý của bạn, bạn có thể giải thích rõ hơn không?
+    - text: Xin lỗi, tôi không thể cung cấp thông tin về vấn đề đó.
+    - text: Bot của chúng tôi chỉ có thể trả lời các câu hỏi liên quan đến bất động sản.
+    - text: Tôi không thể giúp bạn với vấn đề đó. Bạn có thể thử tìm kiếm thông tin trên internet.
+    - text: Rất tiếc, tôi không thể giải đáp câu hỏi đó.
+    - text: Tôi không hiểu rõ ý của bạn. Bạn có thể giải thích rõ hơn không?
+    - text: Rất tiếc, tôi không có thông tin để trả lời câu hỏi của bạn.
+    - text: Tôi không được lập trình để trả lời câu hỏi đó, xin lỗi vì sự bất tiện này.
+
+
+
+actions: 
+# chitchat
+  - utter_greet
+  - utter_goodbye
+  - utter_name 
+  - utter_who_create 
+  - utter_ability 
+  - utter_ask_joker 
+  - utter_ask_todo 
+# ask knowledge
+  - utter_ask_define_mental_health
+  - utter_ask_fact 
+  - utter_ask_why_important
+  - utter_ask_define_depression
+  - utter_ask_identify_sign_depression
+  - utter_ask_define_therapist
+  - utter_ask_define_therapy
+  - utter_ask_define_mental_illness
+  - utter_ask_who_mental_illness_affect
+  - utter_ask_cause_mental_illness
+  - utter_ask_warning_sign_mental_illness
+  - utter_ask_recover_metal_illness
+  - utter_ask_diff_sadness_depression
+  - utter_ask_diff_anxiety_stress
+  - utter_ask_treatment_available
+  - utter_ask_prevent_metal_health
+#Out of scope 
+  - utter_out_of_scope 
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

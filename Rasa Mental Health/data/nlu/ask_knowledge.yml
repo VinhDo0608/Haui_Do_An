@@ -1,0 +1,203 @@
+version: "3.1"
+
+nlu:
+- intent: ask_define_mental_health
+  examples: |
+    - sức khỏe tinh thần là gì ạ?
+    - định nghĩa sức khỏe tinh thần
+    - ĐN sức khỏe tinh thần?
+    - bạn hãy nêu định nghĩa của sức khỏe tinh thần
+    - bạn có thể giải thích sức khỏe tinh thần không?
+    - sức khỏe tinh thần có ý nghĩa gì?
+    - bạn có biết sức khỏe tinh thần được định nghĩa như thế nào không?
+    - xin cho biết định nghĩa của sức khỏe tinh thần
+
+- intent: ask_fact
+  examples: |
+    - bạn có thể cho tôi biết một vài thông tin về sức khỏe tinh thần không?
+    - hãy chia sẻ một số sự thật về sức khỏe tinh thần.
+    - tôi muốn biết những điều thú vị về sức khỏe tinh thần.
+    - bạn có thể nêu ra một số thông tin quan trọng về sức khỏe tinh thần không?
+    - cho tôi biết các sự thật liên quan đến sức khỏe tinh thần.
+    - bạn có thông tin gì về sức khỏe tinh thần không?
+    - hãy kể cho tôi nghe về sức khỏe tinh thần.
+    - có những sự thật nào đáng chú ý về sức khỏe tinh thần?
+
+- intent: ask_why_important
+  examples: | 
+    - tại sao chúng ta cần quan tâm đến sức khỏe tinh thần?
+    - sức khỏe tinh thần có ảnh hưởng gì đến cuộc sống của chúng ta?
+    - sức khỏe tinh thần có phải là yếu tố quan trọng không?
+    - tại sao sức khỏe tinh thần lại cần được chú ý?
+    - làm thế nào để hiểu rõ hơn về sự quan trọng của sức khỏe tinh thần?
+    - sức khỏe tinh thần ảnh hưởng như thế nào đến chất lượng cuộc sống?
+    - tầm quan trọng của việc chăm sóc sức khỏe tinh thần là gì?
+    - tại sao việc duy trì sức khỏe tinh thần lại quan trọng đối với mỗi người?
+  
+- intent: ask_define_depression
+  examples: |
+    - trầm cảm là gì thế ạ?
+    - bạn cho mình biết trầm cảm là như nào được không?
+    - trầm cảm có nghĩa là gì
+    - định nghĩa về trầm cảm?
+    - trầm cảm là gì?
+    - trầm cảm có thể được hiểu như thế nào?
+    - bạn có thể giải thích về trầm cảm không?
+    - cho tôi biết ý nghĩa của trầm cảm là gì?
+
+- intent: ask_identify_sign_depression
+  examples: |
+    - làm sao để tôi biết liệu mình có bị trầm cảm hay không?
+    - dấu hiệu để phát hiện bị trầm cảm là gì?
+    - liệu tôi có bị trầm cảm không
+    - bạn cho mình biết các biểu hiện của bệnh trầm cảm với ạ.
+    - Điều gì để nhận biết rằng một người bị trầm cảm
+    - các triệu chứng nào cho thấy tôi có thể bị trầm cảm?
+    - làm thế nào để xác định nếu mình đang mắc bệnh trầm cảm?
+    - cách nào để nhận diện dấu hiệu trầm cảm ở bản thân?
+    - tôi có thể làm gì để kiểm tra xem mình có bị trầm cảm không?
+    - những dấu hiệu nào cho thấy một người có thể bị trầm cảm?
+    - làm sao để biết một người có dấu hiệu của trầm cảm?
+    - bạn có thể cho tôi biết các dấu hiệu của trầm cảm không?
+
+- intent: ask_define_therapist
+  examples: |
+    - nhà trị liệu là những ai vậy bạn?
+    - cho mình biết công việc của nhà trị liệu với
+    - nhà trị liệu thường làm gì?
+    - nhà trị liệu có những nhiệm vụ gì?
+    - công việc chính của nhà trị liệu là gì?
+    - nhà trị liệu giúp được gì cho mình?
+    - vai trò của nhà trị liệu là gì vậy?
+    - nhà trị liệu có phải là bác sĩ không?
+
+- intent: ask_define_therapy
+  examples: |
+    - liệu pháp là gì
+    - định nghĩa liệu pháp
+    - liệu pháp được hiểu như thế nào?
+    - liệu pháp có nghĩa là gì?
+    - tôi có nên tham gia liệu pháp không?
+    - khi nào tôi cần liệu pháp?
+    - ai nên thực hiện liệu pháp?
+    - liệu pháp phù hợp với ai?
+    - đối tượng nào nên áp dụng liệu pháp?
+    - liệu pháp có phù hợp với tôi không?
+
+- intent: ask_define_mental_illness
+  examples: |
+    - bệnh tâm thần là gì?
+    - định nghĩa bệnh tâm thần
+    - liệu tôi có bị bệnh tâm thần không? 
+    - bạn cho mình biết định nghĩa về bệnh tâm thần là gì nhé.
+    - bệnh lý tâm thần là gì?
+    - làm sao để biết mình có bị bệnh tâm thần?
+    - bệnh tâm thần có những dấu hiệu nào?
+    - biểu hiện của bệnh tâm thần là gì?
+    - bệnh tâm thần được hiểu như thế nào?
+    - dấu hiệu nhận biết bệnh tâm thần là gì?
+    - bệnh tâm thần có nguy hiểm không?
+
+- intent: ask_who_mental_illness_affect
+  examples: |
+    - rối loạn tâm thần ảnh hưởng đến ai
+    - bệnh tâm thần ảnh hưởng đến ai
+    - những ai bị ảnh hưởng bởi bệnh tâm thần
+    - những người nào bị ảnh hưởng bởi bệnh rối loạn tâm thần
+    - ai là người dễ bị ảnh hưởng bởi rối loạn tâm thần
+    - ai bị ảnh hưởng bởi bệnh tâm lý
+    - ai dễ bị tác động bởi bệnh tâm thần
+    - người nào có nguy cơ bị ảnh hưởng bởi bệnh tâm thần
+    - bệnh lý tâm thần có thể ảnh hưởng đến nhóm người nào
+    - ai có khả năng bị ảnh hưởng bởi rối loạn tâm lý
+    - bệnh rối loạn tâm thần có thể gây ảnh hưởng đến ai
+    - bệnh tâm thần có thể ảnh hưởng đến người như thế nào
+
+- intent: ask_cause_mental_illness
+  examples: |
+    - nguyên nhân gây ra rối loạn tâm thần là gì
+    - bạn có biết rối loạn tâm thần là do đâu không
+    - bệnh tâm thần có nguyên nhân từ đâu
+    - nguyên nhân do đâu mà dẫn tới bệnh tâm thần vậy
+    - tại sao lại bị rối loạn tâm thần
+    - vì sao con người mắc bệnh tâm thần
+    - điều gì dẫn đến rối loạn tâm thần
+    - lý do khiến một người mắc bệnh tâm thần là gì
+    - nguyên nhân chính gây ra bệnh tâm thần là gì
+    - yếu tố nào góp phần vào rối loạn tâm thần
+
+- intent: ask_warning_sign_mental_illness
+  examples: |
+    - những dấu hiệu cảnh báo bệnh tâm thần là gì?
+    - bạn cho tôi biết triệu chứng của bệnh tâm thần
+    - bệnh tâm thần có những triệu chứng nào
+    - rối loạn tâm thần có những dấu hiệu triệu chứng nào?
+    - bệnh rối loạn tâm thần có biểu hiện triệu chứng ra sao vậy bạn?
+    - các triệu chứng phổ biến của bệnh tâm thần là gì?
+    - làm sao để nhận biết bệnh tâm thần?
+    - triệu chứng của rối loạn tâm thần gồm những gì?
+    - bệnh tâm thần có những dấu hiệu nào dễ nhận biết?
+    - biểu hiện của bệnh rối loạn tâm thần là gì?
+
+- intent: ask_recover_metal_illness
+  examples: |
+    - người mắc bệnh tâm thần có thể hồi phục được không?
+    - những bệnh nhân mắc rối loạn tâm thần, họ có thể bình phục lại được không bác sĩ?
+    - bạn cho mình hỏi, người bệnh tâm thần liệu có khỏe lại hay hồi phục được không?
+    - nếu bị rối loạn hay mắc tâm thần thì có thể hồi phục hay bình phục bình thường được không ạ?
+    - người bị tâm thần có thể chữa khỏi hoàn toàn được không?
+    - bệnh tâm thần có thể chữa trị được không hay phải sống chung suốt đời?
+    - người thân của tôi bị rối loạn tâm thần, liệu có thể hồi phục không?
+    - liệu một người bị tâm thần phân liệt có thể trở lại bình thường được không?
+    - bệnh nhân tâm thần có thể tự phục hồi mà không cần dùng thuốc không?
+    - bệnh rối loạn tâm lý có thể điều trị để hồi phục hoàn toàn không?
+
+- intent: ask_diff_sadness_depression
+  examples: |
+    - Sự khác biệt giữa nỗi buồn và trầm cảm là gì?
+    - khác biệt giữa nỗi buồn và trầm cảm
+    - bạn cho mình biết khác biệt giữa trầm cảm và sự buồn bã là như thế nào?
+    - Nỗi buồn và trầm cảm có khác nhau không?
+    - Điều gì làm nên sự khác biệt giữa trầm cảm và nỗi buồn?
+    - Trầm cảm khác nỗi buồn ở điểm nào?
+    - Bạn có thể giải thích điểm khác nhau giữa trầm cảm và buồn bã không?
+    - Trầm cảm và nỗi buồn khác nhau như thế nào?
+    - Làm sao để phân biệt trầm cảm với cảm giác buồn thông thường?
+    - Nỗi buồn có phải là một dạng của trầm cảm không?
+
+- intent: ask_diff_anxiety_stress
+  examples: |
+    - Sự khác biệt giữ lo âu và căng thằng?
+    - bạn ơi, căng thằng và lo âu khác gì nhau không
+    - Đưa ra sự khác biệt giữa lo âu và căng thẳng
+    - So sánh giữa căng thẳng và lo âu.
+    - Làm thế nào để phân biệt căng thẳng và lo âu?
+    - Lo âu và căng thẳng có gì khác biệt?
+    - Sự khác nhau giữa stress và anxiety là gì?
+    - Bạn có thể giải thích sự khác biệt giữa lo âu và căng thẳng không?
+    - Điểm khác biệt chính giữa lo âu và căng thẳng là gì?
+    - So sánh sự khác nhau giữa lo âu và căng thẳng trong cuộc sống hằng ngày.
+
+- intent: ask_treatment_available
+  examples: |
+    - các lựa chọn điều trị nào có sẵn?
+    - có những phương pháp điều trị nào?
+    - bạn ơi, về bệnh tâm lý này thì hiện tại có những phương pháp điều trị nào vậy nhỉ?
+    - cho tôi biết những phương pháp điều trị hiện có được không?
+    - có cách nào để điều trị bệnh này không?
+    - các phương pháp điều trị hiện nay là gì?
+    - bạn có thể liệt kê các phương pháp điều trị không?
+    - điều trị bệnh này bằng cách nào là tốt nhất?
+    - hiện nay người ta đang sử dụng phương pháp nào để điều trị bệnh này?
+    - có những cách nào để chữa bệnh này?
+
+- intent: ask_prevent_metal_health
+  examples: |
+    - cách ngăn ngừa các vấn đề về sức khỏe tâm thần là gì?
+    - có những biện pháp nào để phòng ngừa vấn đề về sức khỏe tâm thần không?
+    - làm thế nào để ngăn ngừa bệnh lý liên quan đến sức khỏe tâm thần?
+    - tôi có thể làm gì để phòng ngừa các vấn đề sức khỏe tâm thần?
+    - có các phương pháp nào để ngăn ngừa vấn đề sức khỏe tâm thần không?
+    - bạn có thể cho tôi biết cách phòng ngừa các vấn đề về sức khỏe tâm thần không?
+    - những cách nào giúp ngăn ngừa các vấn đề về sức khỏe tâm thần?
+    - các biện pháp nào có thể ngăn ngừa bệnh lý về sức khỏe tâm thần?

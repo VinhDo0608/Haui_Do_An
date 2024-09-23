@@ -1,0 +1,54 @@
+version: "3.1"
+
+nlu: 
+- intent: out_of_scope
+  examples: |
+    - Bạn có thể giúp tôi tìm hiểu về lịch sử văn hóa Việt Nam không?
+    - Tôi muốn biết về những điểm đến du lịch hấp dẫn tại Hà Nội, bạn có thể giới thiệu cho tôi không?
+    - Tôi muốn tìm hiểu về các trò chơi điện tử, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết cách phát triển kỹ năng giao tiếp hiệu quả không?
+    - Tôi muốn tìm hiểu về các phương pháp giảm stress, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết cách chăm sóc da đúng cách không?
+    - Tôi muốn tìm hiểu về các loại cây trồng phổ biến tại Việt Nam, bạn có thể giới thiệu cho tôi không?
+    - Bạn có thể cho tôi biết cách lên kế hoạch tài chính hiệu quả không?
+    - Tôi muốn tìm hiểu về cách giảm cân, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết về các bệnh lây truyền qua đường tình dục không?
+    - Tôi muốn tìm hiểu về cách pha chế đồ uống, bạn có thể giới thiệu cho tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về các loại nấm độc hại không?
+    - Tôi muốn tìm hiểu về cách nuôi chim cảnh, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết về các loại máy tính phổ biến hiện nay không?
+    - Tôi muốn tìm hiểu về các kỹ thuật phục hồi dữ liệu, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về cách sử dụng phần mềm Photoshop không?
+    - Tôi muốn tìm hiểu về cách lên kế hoạch du lịch, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết về các loại phương tiện giao thông công cộng phổ biến tại Việt Nam không?
+    - Bạn có thể cho tôi biết về các loại trang phục truyền thống của các dân tộc Việt Nam không?
+    - Tôi muốn tìm hiểu về các loại thực phẩm có lợi cho sức khỏe, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về cách sử dụng Excel để quản lý dữ liệu không?
+    - Tôi muốn tìm hiểu về các loại đồ uống truyền thống của Việt Nam, bạn có thể giới thiệu cho tôi không?
+    - Bạn có thể cho tôi biết về các loại động vật hoang dã sống tại Việt Nam không?
+    - Tôi muốn tìm hiểu về cách chế biến món ăn ngon, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về các loại vật liệu xây dựng phổ biến tại Việt Nam không?
+    - Tôi muốn tìm hiểu về các loại thuốc đông y, bạn có thể giới thiệu cho tôi không?
+    - Bạn có thể cho tôi biết về các loại trò chơi dân gian của Việt Nam không?
+    - Tôi muốn tìm hiểu về các loại thiết bị điện tử phổ biến hiện nay, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về các loại trà truyền thống của Việt Nam không?
+    - Tôi muốn tìm hiểu về cách lắp đặt camera an ninh, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết về các loại bài thuốc nam chữa bệnh không?
+    - Tôi muốn tìm hiểu về cách sử dụng công cụ Microsoft Word để soạn thảo văn bản, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về các loại nước hoa phổ biến hiện nay không?
+    - Tôi muốn tìm hiểu về các loại đồ chơi trẻ em phổ biến tại Việt Nam, bạn có thể giới thiệu cho tôi không?
+    - Bạn có thể cho tôi biết về các loại phương pháp học ngoại ngữ hiệu quả không?
+    - Tôi muốn tìm hiểu về cách trang điểm tự nhiên, bạn có thể giúp tôi không?
+    - Tôi muốn tìm hiểu về các loại hoa quả tươi ngon, bạn có thể giới thiệu cho tôi không?
+    - Bạn có thể cho tôi biết về các loại trang sức phổ biến hiện nay không?
+    - Tôi muốn tìm hiểu về các loại đồ gia dụng thông minh, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về các loại truyền thống và tập quán của người Việt Nam không?
+    - Tôi muốn tìm hiểu về cách trồng cây và chăm sóc cây cảnh, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết về các loại đặc sản của các tỉnh miền Trung Việt Nam không?
+    - Tôi muốn tìm hiểu về cách tạo video quảng cáo trên Facebook, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về các loại hình thể thao phổ biến hiện nay không?
+    - Tôi muốn tìm hiểu về cách tạo blog cá nhân, bạn có thể giúp tôi không?
+    - Bạn có thể cho tôi biết về các loại phương tiện giao thông công cộng tại các thành phố lớn của Việt Nam không?
+    - Tôi muốn tìm hiểu về cách tập yoga cho người mới bắt đầu, bạn có thể giúp tôi không?
+    - Bạn có thể giúp tôi tìm hiểu về các loại bánh truyền thống của các dân tộc miền núi Việt Nam không?
+    - Tôi muốn tìm hiểu về cách giữ gìn sức khỏe trong mùa đông, bạn có thể giúp tôi không?
